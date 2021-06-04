@@ -1,0 +1,61 @@
+.more{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more__heading{
+    font-size: 35px;
+    color: red;
+    margin-top: -30px;
+}
+
+.middle__image{
+    height:800px;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+    margin-top: -25px;
+}
+
+.last__content{
+    width: 78%;
+    padding: 20px;
+    text-align: center;
+}
+
+.last__content h2{
+    font-size: 27px;
+    color: red;
+}
+
+.info__box{
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(136, 218, 136);
+}
+
+.box{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    margin:auto;
+}
+.infoBox__heading{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.link{
+    margin-top: 10px;
+}
+
+.link a{
+    text-decoration: none;
+    /* font-size: px; */
+}

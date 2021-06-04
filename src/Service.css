@@ -1,0 +1,67 @@
+.service{
+    width: 100%;
+    height: max-content;
+    margin: auto;
+    display: flex;
+}
+
+.service__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.content1{
+    font-size: 35px;
+    color: red;
+    width: 500px;
+}
+
+.content2{
+    width: 500px;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.content3{
+    width: 500px;
+}
+
+
+
+.service__image{
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+    margin-left: 35px;
+}
+
+.maskOn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgreen;
+    padding: 20px;
+    margin-top: 30px;
+}
+.maskOn_row1{
+    display: flex;
+}
+
+.maskOn_row2{
+    display: flex;
+}
+
+.maskOff{
+    margin-top: 30px;
+    background-color: lightpink;
+    padding: 15px;
+}
+
+.maskOff__heading{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
